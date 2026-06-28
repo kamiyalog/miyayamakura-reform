@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リフォームのご相談｜宮真倉リフォーム</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body data-page="07">
+
+    <div id="header"></div>
+
+    <main>
+
+        <section class="contact-main">
+            <div class="container">
+
+                <div class="section-title">
+                    <span class="en">Contact</span>
+                    <span class="ja">リフォームのご相談</span>
+                </div>
+
+                <p class="contact-lead">
+                    住まいに関するお悩みを、なんでもご相談ください。<br>
+                    内容を確認のうえ、担当者よりご連絡いたします。
+                </p>
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-row">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="age">年齢</label>
+                        <input type="number" id="age" name="age" min="0">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="tel">電話番号</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
+
+                    <div class="child-area">
+
+                        <p class="child-title">
+                            お子様について
+                        </p>
+
+                        <div class="form-row">
+                            <label for="child">お子様の有無 <span class="required">必須</span></label>
+                            <select id="child" name="child" required>
+                                <option value="">選択してください</option>
+                                <option value="あり">あり</option>
+                                <option value="なし">なし</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="childGender">お子様の性別 <span class="required">必須</span></label>
+                            <select id="childGender" name="childGender" required>
+                                <option value="">選択してください</option>
+                                <option value="女の子">女の子</option>
+                                <option value="男の子">男の子</option>
+                                <option value="その他">その他</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="childAge">お子様の年齢 <span class="required">必須</span></label>
+                            <input type="number" id="childAge" name="childAge" min="0" required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">相談したいこと</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <div class="form-button">
+                        <button type="submit" class="button">送信</button>
+                    </div>
+
+                </form>
+
+                <div id="formResult" class="form-result" aria-live="polite"></div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="include.js"></script>
+    <script src="search.js"></script>
+    <script src="contact.js"></script>
+
+</body>
+</html>
