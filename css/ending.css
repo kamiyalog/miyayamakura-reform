@@ -1,0 +1,113 @@
+/*==================================================
+    ENDING
+==================================================*/
+
+.ending-main {
+    padding: 50px 0 90px;
+}
+
+.ending-card {
+    max-width: 860px;
+    margin: 0 auto;
+
+    padding: 44px;
+
+    background: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 10px;
+}
+
+.ending-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+    padding: 5px 14px;
+
+    background: var(--main-color);
+    color: var(--white);
+
+    border-radius: 999px;
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+}
+
+.ending-card h1 {
+    margin-bottom: 34px;
+}
+
+.ending-message p {
+    margin-bottom: 26px;
+    line-height: 2.1;
+}
+
+/*==================================================
+    IMAGE
+==================================================*/
+
+.ending-image {
+    margin-top: 42px;
+}
+
+.ending-image img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--light-gray);
+}
+
+.ending-image figcaption {
+    margin-top: 12px;
+    color: var(--gray);
+    font-size: 14px;
+    text-align: center;
+}
+
+/*==================================================
+    SHARE
+==================================================*/
+
+.share-box {
+    margin-top: 44px;
+    padding: 28px;
+
+    background: #f7f7f7;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.share-box p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.share-button {
+    display: inline-block;
+
+    padding: 12px 32px;
+
+    background: #111;
+    color: #fff;
+
+    border-radius: 999px;
+
+    font-weight: bold;
+}
+
+.share-button:hover {
+    background: #444;
+}
+
+/*==================================================
+    RESPONSIVE
+==================================================*/
+
+@media (max-width: 768px) {
+
+    .ending-card {
+        padding: 30px 22px;
+    }
+
+}

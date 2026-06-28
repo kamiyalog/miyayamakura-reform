@@ -1,0 +1,65 @@
+/*==================================================
+    ABOUT
+==================================================*/
+
+.about-main {
+    padding: 40px 0 80px;
+}
+
+.about-box {
+    max-width: 900px;
+    margin: 0 auto;
+
+    padding: 48px;
+
+    background: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+}
+
+.about-box h1 {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.about-box p {
+    margin-bottom: 24px;
+    line-height: 2;
+}
+
+.about-box strong {
+    color: var(--main-color);
+    font-size: 1.05em;
+}
+
+.about-box p:last-child {
+    margin-bottom: 0;
+}
+
+/*==================================================
+    RESPONSIVE
+==================================================*/
+
+@media (max-width: 768px) {
+
+    .about-box {
+        padding: 28px 22px;
+    }
+
+    .about-box h1 {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .about-box {
+        padding: 22px 18px;
+    }
+
+    .about-box h1 {
+        font-size: 26px;
+    }
+
+}
