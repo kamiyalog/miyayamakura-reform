@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "大内礼子"
         ],
         q4: [
-            "宮真倉有希"
+            "宮真倉有希",
+	"有希"
         ],
         q5: [
             "有希のからだ",
