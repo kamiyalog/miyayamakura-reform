@@ -21,11 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
             "加工部員輸送課"
         ],
         q3: [
-            "大内礼子"
+            "大内礼子",
+	"大内"
         ],
         q4: [
             "宮真倉有希",
-	"有希"
+	"有希",
+	"大内有希"
         ],
         q5: [
             "有希のからだ",
