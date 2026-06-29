@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "ゆきの体",
             "ゆきの身体",
             "ゆきのドール",
-		有希"
+		"有希"
         ]
     };
 
